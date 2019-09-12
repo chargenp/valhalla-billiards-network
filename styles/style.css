@@ -1,0 +1,56 @@
+body {
+    background-image: url(https://www.sirplay.com/wp-content/uploads/2017/02/I73OWYX.jpg);
+    color: White;
+    background-attachment: fixed;
+	
+}
+
+/* A link that has not been visited */
+a:link {
+        text-decoration: underline;
+        font-size: 18px;
+        color: white;
+}
+
+/* A link that has been visited */
+a:visited {
+        text-decoration: underline;
+        font-size: 18px;
+        color: white;
+}
+
+h1 {
+    color: White;
+}
+
+h2 {
+    color: White;
+    text-decoration: underline;
+}
+
+.btn {
+    border: 1px solid White;
+    padding: 12px;
+    text-align: center;
+    display: inline-block;
+    color: White;
+    font-size: 14px;
+    margin 4px 2px;
+    background-color: Black;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: White;
+    color: Black;
+}
+
+.div1 {
+    background: Black;
+    margin: 0 auto;
+    width: 400px;
+    border: 3px solid #84481d;
+    vertical-align: middle;
+}
+
+

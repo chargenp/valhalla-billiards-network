@@ -1,0 +1,32 @@
+/* The sidebar menu */
+.sidenav {
+    width: 140px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    border: 2px solid #422b00;
+    background-color: rgba(66,43,0,0.6);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: Black;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+    margin-left: 160px;
+    padding: 0px 10px;
+}

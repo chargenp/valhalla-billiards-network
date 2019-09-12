@@ -1,0 +1,21 @@
+h2 {
+     color: White;
+}
+
+#content {
+     font-family: arial, sans-serif;
+     border-collapse: collapse;
+     width: 100%;
+     position: relative;
+     top: 10px;
+}
+
+#content th, td {
+     border: 1px solid #422b00;
+     text-align: left;
+     padding: 8px;
+}
+
+#content tr:nth-child(even) {
+     background-color: rgba(66,43,0,0.6);
+}
